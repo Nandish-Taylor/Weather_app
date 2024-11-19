@@ -1,0 +1,79 @@
+.weather {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* Other styles */
+    place-self: center;
+    padding: 40px;
+    border-radius: 20px;
+    background-image: linear-gradient(45deg, #6d86c7, #31009c);
+}
+
+.search-bar {
+    display: flex; /* Use Flexbox */
+    align-items: center; /* Vertically align items */
+    gap: 10px; /* Add some space between the input and image */
+}
+.search-bar input{
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding-left: 25px;
+    background: #ebfffc;
+    font-size: 18px;
+}
+.img-size {
+    height: 30px; 
+    width: auto;  
+    cursor: pointer;
+}
+.weather-icon{
+    margin: 20px 20px 0px 20px;
+    
+    height: 200px;
+    width: auto;
+}
+.weatherName {
+    margin-bottom: 25px;
+  font-size: 40px;
+  
+  background: linear-gradient(45deg, #ffffff, #686868);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+  }
+.temp{
+    color: #fff;
+    font-size: 30px;
+    line-height: 1;
+}
+.location{
+    color: #fff;
+    font-size: 30px;
+}
+.weather-data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.col {
+    display: flex; /* Flexbox to align items in column */
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text */
+    margin: 0 10px; /* Add horizontal margin */
+}
+
+.col img {
+    height: 50px; /* Adjust size of icons */
+    width: auto;
+    margin-bottom: 10px; /* Space below icons */
+}
+
+.col div {
+    color: #fff;
+}
